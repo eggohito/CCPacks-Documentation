@@ -5,8 +5,9 @@ nav:
     - Blocks: blocks.md
     - Items:
       - Armor: item/armor.md
-      - General: item/general.md
+      - Durable Item: item/durable.md
       - Food: item/food.md
+      - General: item/general.md
       - Tools: item/tools.md
       - Weapons: item/weapons.md
 
