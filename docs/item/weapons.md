@@ -7,8 +7,8 @@ date: 2021-06-03
 
 ```json
 {
-	"namespace": "example_pack",
-	"id": "emerald_sword",
+	"type": "ccpacks:sword",
+	"identifier": "example_pack:example_sword",
 	"durability": 47,
 	"mining_speed_multiplier": 0,
 	"attack_damage": 9,
