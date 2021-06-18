@@ -16,7 +16,7 @@ date: 2021-06-03
 	"toughness": 3,
 	"knockback_resistance": 1,
 	"powers": [
-		"example_pack:elytra power"
+		"example_pack:elytra_power"
 	],
 	"lore": [
 		"Hmmm, whats this?",
