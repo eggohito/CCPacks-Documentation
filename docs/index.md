@@ -10,9 +10,8 @@ Welcome to the documentation for the CCpack mod!
 ```mermaid
 graph TD
 A[Packname]
-A --> C(pack.ccmeta)
 A --> B[ ]
-A --> D(pack.mcmeta)
+A --> C(pack.mcmeta)
 
 B --> E[assets]
 
