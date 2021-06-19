@@ -18,35 +18,5 @@ General information
 - The Origins mod is not required for CCPacks to work, although using both mods together allows for more possibilities in both.
 - We do have a discord for distributing and sharing your creations! You can find it here: https://discord.gg/u2aD6W9krt
 
-.. uml::
-
-   skinparam monochrome true
-   skinparam handwritten true
-
-   actor You
-   "sphinx-doc-template" --> You: copy
-   You --> You: customize
-   You --> GitHub: push
-   GitHub --> RTD: WebHook
-   RTD --> RTD: build
-   You <-- RTD: Read The Docs
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   setup
-   diagrams
-   markdown
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
-
-
 .. _sphinx-bootstrap: https://ryan-roemer.github.io/sphinx-bootstrap-theme/
 .. _plantweb: https://plantweb.readthedocs.io/index.html
