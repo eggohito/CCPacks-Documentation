@@ -18,6 +18,18 @@ General information
 - The Origins mod is not required for CCPacks to work, although using both mods together allows for more possibilities in both.
 - We do have a discord for distributing and sharing your creations! You can find it here: https://discord.gg/u2aD6W9krt
 
++------------+------------+
+| Header 1   | Header 2   |
++============+============+
+| body row 1 | column 2   |
++------------+------------+
+| body row 2 | Cells may  |
++------------+------------+
+| body row 3 | Cells may  |
++------------+------------+
+| body row 4 |            |
++------------+------------+
+
 .. toctree::
    :caption: Table of Contents
    :name: mastertoc
