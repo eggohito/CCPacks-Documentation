@@ -18,5 +18,12 @@ General information
 - The Origins mod is not required for CCPacks to work, although using both mods together allows for more possibilities in both.
 - We do have a discord for distributing and sharing your creations! You can find it here: https://discord.gg/u2aD6W9krt
 
+.. toctree::
+   :maxdepth: 2
+   intro
+   strings
+   datatypes
+   numeric
+
 .. _sphinx-bootstrap: https://ryan-roemer.github.io/sphinx-bootstrap-theme/
 .. _plantweb: https://plantweb.readthedocs.io/index.html
