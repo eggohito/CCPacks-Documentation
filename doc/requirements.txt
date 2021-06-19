@@ -1,7 +1,0 @@
-# Requirements for building sphinx-doc-template
-sphinx_bootstrap_theme
-plantweb
-recommonmark
-mkdocs-mermaid2-plugin
-mkdocs-material
-sphinx-markdown-tables
