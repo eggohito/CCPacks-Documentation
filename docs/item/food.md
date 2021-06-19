@@ -2,16 +2,8 @@
 
 ### Fields:
 
-Field  | Type | Default | Description
--------|------|---------|-------------
-add("identifier", SerializableDataTypes.IDENTIFIER)
-            .add("", SerializableDataTypes.INT, 64)
-            .add("",SerializableDataTypes.INT, 4)
-            .add("",SerializableDataTypes.FLOAT, 8f)
-            .add("",SerializableDataTypes.BOOLEAN, false)
-            .add("",SerializableDataTypes.BOOLEAN, false)
-            .add("lore", CCPackDataTypes.STRINGS, null)
-            .add("",SerializableDataTypes.BOOLEAN, false);
+   Field   | Type | Default | Description
+-----------|------|---------|-------------
 `identifier` | [Identifier]() | *mandetory* | The identifier is what the item appears as in the /give command.
 `max_count` | [Integer]() | *64* | How many of the item you can have in one stack.
 `hunger` | [Integer]() | *4* | how many hunger it fills up (1 = half a bar)
