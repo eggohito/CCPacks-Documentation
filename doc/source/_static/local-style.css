@@ -1,11 +1,11 @@
 html {
   font-size: 16px;
+  background-color: #36393F;
 }
 
 body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size: 1.0rem;
-  background-color: #36393F;
 }
 
 code {
