@@ -6,7 +6,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `identifier` | [Identifier](../data_types/identifier.md) | _mandetory_ | Filler text for now.
 `durability` | [Integer](../data_types/integer.md) | _mandetory_ | Also filler text for now.
-`mining_speed_multiplier` | [Integer](../data_types/integer.md) | _mandetory_ | Also filler text for now.
+`mining_speed_multiplier` | [Float](../data_types/float.md) | _mandetory_ | Also filler text for now.
 `attack_damage` | [Integer](../data_types/integer.md) | _mandetory_ | Also filler text for now.
 `attack_speed` | [Integer](../data_types/integer.md) | _mandetory_ | Also filler text for now.
 `mining_level` | [Integer](../data_types/integer.md) | _mandetory_ | Also filler text for now.
