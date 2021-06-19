@@ -1,4 +1,5 @@
 site_name: CCPacks Documentation
+
 nav:
     - Home: index.md
     - Data Types: data_types.md
