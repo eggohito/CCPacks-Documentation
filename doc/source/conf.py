@@ -127,7 +127,7 @@ html_sidebars = {
 
 
 def setup(app):
-  app.add_stylesheet("local-style.css")
+  app.add_css_file("local-style.css")
 
 
 # -- PlantWeb configuration
