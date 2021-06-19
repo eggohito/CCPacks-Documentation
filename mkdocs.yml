@@ -29,6 +29,8 @@ theme:
         icon: material/toggle-switch
         name: Switch to dark mode
 
+docs_dir: "docs"
+
 plugins:
   - search
   - mermaid2:
