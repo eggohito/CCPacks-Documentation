@@ -5,6 +5,13 @@ date: 2021-06-03
 
 # Sword json structure
 
+### Fields
+
+Field  | Type | Default | Description
+-------|------|---------|-------------
+`identifier` | [Identifier](../data_types/identifier.md) | _mandetory_ | Filler text for now.
+`durability` | [Integer](../data_types/integer.md) | _mandetory_ | Also filler text for now.
+
 ```json
 {
 	"type": "ccpacks:sword",
