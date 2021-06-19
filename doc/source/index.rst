@@ -1,4 +1,9 @@
-# Welcome
+.. ID documentation master file, created by
+   sphinx-quickstart on Sat Dec 18 08:18:09 2017.
+
+Custom Content Packs Documentation
+=============================
+
 Welcome to the documentation for the CCPacks mod!
 
 This mod gives the developers the ability to create new Custom Content in minecraft, without needing to know java.
@@ -6,66 +11,42 @@ This mod gives the developers the ability to create new Custom Content in minecr
 Huge thanks to Apace, who created the libraries that allow CCPacks to have as many features as it does.
 
 
-# General information
+General information
+=============================
 - All General Items, Armor and Tools can grant a player any power whilst equipped in their specific slot.
 - These powers are identical to the powers used in the Origins Mod, but are granted via the use of items, as apposed to being granted by an origin.
 - The Origins mod is not required for CCPacks to work, although using both mods together allows for more possibilities in both.
 - We do have a discord for distributing and sharing your creations! You can find it here: https://discord.gg/u2aD6W9krt
 
-## General data structure
-```mermaid
-graph TD
-A[Packname]
-A --> B[ ]
-A --> C(pack.mcmeta)
-B --> E[assets]
-B --> F[ccdata]
-B --> G[data]
-```
+.. uml::
 
-## Resourcepack structure
-```mermaid
-graph TD
-E[assets]
-E --> E1[minecraft] --> E1.1[textures] --> E1.2[models] --> E1.3[armor] --> E1.4[[.png]]
-E --> E2[namespace]
-E2 --> E2.1[blockstates] --> E2.1.1([.json])
-E2 --> E2.2[lang] --> E2.2.1([.json])
-E2 --> E2.3[models]
-E2.3 --> E2.3.1[block] --> E2.3.1.1([.json])
-E2.3 --> E2.3.2[item] --> E2.3.2.1([.json])
-E2 --> E2.4[textures]
-E2.4 --> E2.4.1[block] --> E2.4.1.1[[.png]]
-E2.4 --> E2.4.2[item] --> E2.4.2.1[[.png]]
-```
+   skinparam monochrome true
+   skinparam handwritten true
 
-## CCPacks structure
-```mermaid
-graph TD
-F[ccdata]
-F --> FA[blocks] --> FAA([.json])
-F --> FB[items]
-FB --> FBA[armor]
-FBA --> FBAA[boots] --> FBAAA([.json])
-FBA --> FBAB[leggings] --> FBABA([.json])
-FBA --> FBAC[chestplate] --> FBACA([.json])
-FBA --> FBAD[helmet] --> FBADA([.json])
-FB --> FBB[food] --> FBBA([.json])
-FB --> FBC[general] --> FBCA([.json])
-FB --> FBD[tools]
-FBD --> FBDA[axes] --> FBDAA([.json])
-FBD --> FBDB[hoes] --> FBDBA([.json])
-FBD --> FBDC[pickaxes] --> FBDCA([.json])
-FBD --> FBDD[shovels] --> FBDDA([.json])
-FBD --> FBDE[swords] --> FBDEA([.json])
-```
+   actor You
+   "sphinx-doc-template" --> You: copy
+   You --> You: customize
+   You --> GitHub: push
+   GitHub --> RTD: WebHook
+   RTD --> RTD: build
+   You <-- RTD: Read The Docs
 
-## Datapack structure
-```mermaid
-graph TD
-G[data]
-G --> GA[minecraft] --> GAA[tags] --> GAAA[functions] --> GAAAA([.json])
-G --> GB[namespace]
-GB --> GBA[recipes] --> GBAA([.json])
-GB --> GBB[functions] -->GBBA([.json])
-```
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   setup
+   diagrams
+   markdown
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`search`
+
+
+.. _sphinx-bootstrap: https://ryan-roemer.github.io/sphinx-bootstrap-theme/
+.. _plantweb: https://plantweb.readthedocs.io/index.html
