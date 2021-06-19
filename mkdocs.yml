@@ -3,7 +3,7 @@ site_name: CCPacks documentation
 nav: 
     - Home: index.md
     - Custom Content:
-      - Blocks: blocks.md
+      - Blocks: blocks.rst
       - Items:
         - Armor: item/armor.md
         - Durable Item: item/durable.md
