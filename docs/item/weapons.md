@@ -4,15 +4,15 @@
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`identifier` | [Identifier]() | _mandetory_ | Filler text for now.
-`durability` | [Integer]() | _mandetory_ | Also filler text for now.
-`mining_speed_multiplier` | [Float]() | _mandetory_ | Also filler text for now.
-`attack_damage` | [Integer]() | _mandetory_ | Also filler text for now.
-`attack_speed` | [Integer]() | _mandetory_ | Also filler text for now.
-`mining_level` | [Integer]() | _mandetory_ | Also filler text for now.
-`enchantability` | [Integer]() | _mandetory_ | Also filler text for now.
-`lore` | [String [array]]() | _mandetory_ | Also filler text for now.
-`powers` | [Power [array]]() | _mandetory_ | Also filler text for now.
+`identifier` | [Identifier]() | *mandetory* | The identifier is what the item appears as in the /give command.
+`durability` | [Integer]() | *10* | How many uses the item has.
+`mining_speed_multiplier` | [Float]() | *0* | (unknown, if you know, tell me on the discord)
+`attack_damage` | [Integer]() | *0* | the amount of damage that a weapon does.
+`attack_speed` | [Integer]() | *0* | How fast you can swing the weapon.
+`mining_level` | [Integer]() | *optional* | doesn't actually do anything on swords.
+`enchantability` | [Integer]() | *0* | How likely you are to get good enchantments.
+`lore` | [String [array]]() | *optional* | Lines of text below an item.
+`powers` | [Power [array]]() | *optional* | The powers you are given when holding the item.
 
 ### Example Code
 
@@ -25,6 +25,13 @@ Field  | Type | Default | Description
 	"attack_damage": 9,
 	"attack_speed": 2.7,
 	"mining_level": 0,
-	"enchantability": 7
+	"enchantability": 7,
+	"lore": [
+		"first line of lore",
+		"second line of lore"
+	],
+	"powers": [
+		"origins:fall_immunity"
+	]
 }
 ```
