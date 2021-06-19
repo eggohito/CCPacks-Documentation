@@ -8,7 +8,7 @@ date: 2021-06-03
 ```json
 {
 	"type": "ccpacks:food",
-	"namespace": "example_pack:emerald_food",
+	"identifier": "example_pack:emerald_food",
 	"max_count": 47,
 	"hunger": 8,
 	"saturation": 12,
