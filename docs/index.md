@@ -1,7 +1,3 @@
----
-title: Home
-date: 2021-04-04
----
 # Welcome
 Welcome to the documentation for the CCPacks mod!
 
