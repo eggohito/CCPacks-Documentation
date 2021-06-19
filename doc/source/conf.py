@@ -138,7 +138,6 @@ plantweb_defaults = {
 }
 
 html_theme_options = {
-    'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
     'analytics_anonymize_ip': False,
     'logo_only': False,
     'display_version': True,
@@ -162,7 +161,7 @@ plantuml_output_format = "svg"
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'sphinx-doc-tempalte'
+htmlhelp_basename = 'ccpacks-documentation'
 
 
 # -- Options for LaTeX output ---------------------------------------------
