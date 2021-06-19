@@ -14,7 +14,7 @@ Huge thanks to Apace, who created the libraries that allow CCPacks to have as ma
 - All General Items, Armor and Tools can grant a player any power whilst equipped in their specific slot.
 - These powers are identical to the powers used in the Origins Mod, but are granted via the use of items, as apposed to being granted by an origin.
 - The Origins mod is not required for CCPacks to work, although using both mods together allows for more possibilities in both.
-- We do have a discord for distributing and sharing your creations! You can find it here: https://discord.gg/u2aD6W9krt
+- We do have a [discord server](https://discord.gg/u2aD6W9krt) for distributing and sharing your creations! You can find it here: 
 
 ## Helpful links
 
