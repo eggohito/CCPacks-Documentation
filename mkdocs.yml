@@ -2,7 +2,7 @@ site_name: CCPacks Documentation
 
 nav:
     - Home: index.md
-    - Data Types: data_types.md
+    - Pack Structure: pack_structure.md
     - Custom Content:
       - Blocks: blocks.md
       - Items:
