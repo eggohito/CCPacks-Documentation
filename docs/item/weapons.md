@@ -11,6 +11,8 @@ Field  | Type | Default | Description
 `attack_speed` | [Integer](../data_types/integer.md) | _mandetory_ | Also filler text for now.
 `mining_level` | [Integer](../data_types/integer.md) | _mandetory_ | Also filler text for now.
 `enchantability` | [Integer](../data_types/integer.md) | _mandetory_ | Also filler text for now.
+`lore` | [String [array]](../data_types/integer.md) | _mandetory_ | Also filler text for now.
+`powers` | [Power [array]](../data_types/integer.md) | _mandetory_ | Also filler text for now.
 
 ### Example
 
