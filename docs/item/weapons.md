@@ -11,7 +11,7 @@ Field  | Type | Default | Description
 `attack_speed` | [Integer]() | _mandetory_ | Also filler text for now.
 `mining_level` | [Integer]() | _mandetory_ | Also filler text for now.
 `enchantability` | [Integer]() | _mandetory_ | Also filler text for now.
-`lore` | [String [array |() _mandetory_ | Also filler text for now.
+`lore` | [String [array]]() | _mandetory_ | Also filler text for now.
 `powers` | [Power [array]]() | _mandetory_ | Also filler text for now.
 
 ### Example Code
