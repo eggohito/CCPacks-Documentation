@@ -30,3 +30,12 @@ theme:
         name: Switch to dark mode
 
 separator: '_'
+plugins:
+  - search
+  - mermaid2:
+      version: 8.6.4
+      arguments:
+          theme: 'neutral'
+      
+extra_javascript:
+    - https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js
