@@ -120,7 +120,6 @@ html_static_path = ['_static']
 # refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
 html_sidebars = {
     '**': [
-        'genindex.html'
         # 'relations.html',  # needs 'show_related': True theme option to display
         #'searchbox.html',
     ]
@@ -137,10 +136,6 @@ plantweb_defaults = {
     
 }
 
-html_theme_options = {
-    
-}
-
 # -- Plantuml Configuration -----------------------------------------------
 
 plantuml = "java -jar " + os.path.expanduser("~/bin/") + "plantuml.jar"
@@ -149,7 +144,7 @@ plantuml_output_format = "svg"
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ccpacks-documentation'
+htmlhelp_basename = 'sphinx-doc-tempalte'
 
 
 # -- Options for LaTeX output ---------------------------------------------
