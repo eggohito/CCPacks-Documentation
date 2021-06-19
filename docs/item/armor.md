@@ -1,7 +1,4 @@
----
-title: Armor
-date: 2021-06-03
----
+# Custom Armor
 
 # Armor json structure
 
