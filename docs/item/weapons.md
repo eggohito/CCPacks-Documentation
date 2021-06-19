@@ -14,7 +14,7 @@ Field  | Type | Default | Description
 `lore` | [String [array]](../data_types/integer.md) | _mandetory_ | Also filler text for now.
 `powers` | [Power [array]](../data_types/integer.md) | _mandetory_ | Also filler text for now.
 
-### Example
+### Example Code
 
 ```json
 {
