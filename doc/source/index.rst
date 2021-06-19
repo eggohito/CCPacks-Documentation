@@ -19,11 +19,10 @@ General information
 - We do have a discord for distributing and sharing your creations! You can find it here: https://discord.gg/u2aD6W9krt
 
 .. toctree::
-   :maxdepth: 2
-   intro
-   strings
-   datatypes
-   numeric
+   :caption: Table of Contents
+   :name: mastertoc
+
+   foo
 
 .. _sphinx-bootstrap: https://ryan-roemer.github.io/sphinx-bootstrap-theme/
 .. _plantweb: https://plantweb.readthedocs.io/index.html
