@@ -7,7 +7,7 @@
 	"durability": 100,
 	"max_count": 1,
 	"powers": [
-		"example_pack:keybind2"
+		"example_pack:elytra_power"
 	],
 	"lore": [
 		"Hmmm, whats this?",
