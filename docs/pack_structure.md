@@ -29,21 +29,8 @@ E2.4 --> E2.4.2[item] --> E2.4.2.1[[.png]]
 ```mermaid
 graph TD
 F[ccdata]
-F --> FA[blocks] --> FAA([.json])
-F --> FB[items]
-FB --> FBA[armor]
-FBA --> FBAA[boots] --> FBAAA([.json])
-FBA --> FBAB[leggings] --> FBABA([.json])
-FBA --> FBAC[chestplate] --> FBACA([.json])
-FBA --> FBAD[helmet] --> FBADA([.json])
-FB --> FBB[food] --> FBBA([.json])
-FB --> FBC[general] --> FBCA([.json])
-FB --> FBD[tools]
-FBD --> FBDA[axes] --> FBDAA([.json])
-FBD --> FBDB[hoes] --> FBDBA([.json])
-FBD --> FBDC[pickaxes] --> FBDCA([.json])
-FBD --> FBDD[shovels] --> FBDDA([.json])
-FBD --> FBDE[swords] --> FBDEA([.json])
+F --> FA[subfolder name] --> FAA([.json])
+F --> FB([.json])
 ```
 
 ## Datapack structure
