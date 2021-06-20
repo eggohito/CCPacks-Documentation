@@ -13,7 +13,7 @@
 `lore` | [String [array]]() | *optional* | Lines of text below an item.
 `powers` | [Power [array]]() | *optional* | The powers you are given when holding the item.
 
-# Armor json structure
+### Armor json structure
 
 ```json
 {

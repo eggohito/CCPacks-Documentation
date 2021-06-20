@@ -15,7 +15,7 @@
 `luminance` | [Integer]() | *0* | The light level that the block gives off
 `action` | [Entity Action]() | *optional* | Runs the action on the player when they right click the block
 
-# Example Code
+### Example Code
 
 ```json
 {
