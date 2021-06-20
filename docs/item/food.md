@@ -11,7 +11,7 @@
 `meat` | [Boolean]() | *false* | Can it be fed to dogs?
 `always_edible` | [Boolean]() | *false* | Can you eat it even when full?
 `snack` | [Boolean]() | *false* | If true, makes it so you eat it fast, like dried kelp.
-`lore` | [String [array]]() | *optional* | Filler
+`lore` | [String [array]]() | *optional* | Lines of text below an item.
 
 ### Example Code:
 
