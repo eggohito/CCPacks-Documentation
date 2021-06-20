@@ -6,4 +6,4 @@ Removes the specified amount of durability from the item.
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`amount` | [Integer]() | *mandetory* | The amoumt of durability to remove.
+`amount` | [Integer]() | *mandetory* | The amount of durability to remove.

@@ -6,7 +6,7 @@ Checks the durability of a certain item.
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Compatison]() | |  In what way to compare the durability the specified value.
+`comparison` | [Comparison]() | |  In what way to compare the durability the specified value.
 `compare_to` | [Integer]() | | The value to compare durability against.
 
 ### Example
