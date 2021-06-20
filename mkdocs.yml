@@ -12,6 +12,14 @@ nav:
         - General: item/general.md
         - Tools: item/tools.md
         - Weapons: item/weapons.md
+    - Actions:
+        - Item Actions:
+            - Remove Durability: remove_durability.md
+        - Entity Actions:
+            - Crafting GUI: crafting_gui.md
+    - Conditions:
+        - Item Conditions:
+            - Compare Durability: compare_durability.md
        
 theme:
   name: material
