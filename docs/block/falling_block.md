@@ -1,4 +1,6 @@
-# Custom Block
+# Falling Block
+
+Falling blocks are identical to generic blocks, but they are affected by gravity.
 
 ### Fields
 
@@ -19,20 +21,20 @@
 
 ```json
 {
-	"type": "ccpacks:block",
-	"identifier": "example_pack:emerald_block",
-	"sound": "glass",
-	"material": "stone",
-	"effective_tool": "pickaxe",
-	"mining_level": 2,
-	"hardness": 3,
-	"slipperiness": 0.6,
-	"resistance": 3,
-	"luminance": 15,
-	"action": {
-		"type": "ccpacks:crafting_gui"
-	}
+    "type": "ccpacks:falling_block",
+    "identifier": "example_pack:health_block",
+    "sound": "glass",
+    "material": "stone",
+    "effective_tool": "pickaxe",
+    "mining_level": 2,
+    "hardness": 3,
+    "slipperiness": 0.6,
+    "resistance": 3,
+    "luminance": 15,
+	"loot_table": "example_pack:data",
+    "action": {
+        "type": "apoli:heal",
+		"amount": 6
+    }
 }
 ```
-
-This code makes a block that sounds like glass when broken, and when right clicked, opens a crafting GUI for the player

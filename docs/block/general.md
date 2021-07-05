@@ -1,4 +1,4 @@
-# Custom Block
+# General Block
 
 ### Fields
 
@@ -19,19 +19,21 @@
 
 ```json
 {
-	"type": "ccpacks:block",
-	"identifier": "example_pack:emerald_block",
-	"sound": "glass",
-	"material": "stone",
-	"effective_tool": "pickaxe",
-	"mining_level": 2,
-	"hardness": 3,
-	"slipperiness": 0.6,
-	"resistance": 3,
-	"luminance": 15,
-	"action": {
-		"type": "ccpacks:crafting_gui"
-	}
+    "type": "ccpacks:block",
+    "identifier": "example_pack:health_block",
+    "sound": "glass",
+    "material": "stone",
+    "effective_tool": "pickaxe",
+    "mining_level": 2,
+    "hardness": 3,
+    "slipperiness": 0.6,
+    "resistance": 3,
+    "luminance": 15,
+	"loot_table": "example_pack:data",
+    "action": {
+        "type": "apoli:heal",
+		"amount": 6
+    }
 }
 ```
 

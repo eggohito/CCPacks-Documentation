@@ -30,6 +30,7 @@ nav:
     - Conditions:
         - Item Conditions:
             - Compare Durability: item_conditions/compare_durability.md
+            - Compare Amount: item_conditions/compare_amount.md
 
 theme:
   name: material

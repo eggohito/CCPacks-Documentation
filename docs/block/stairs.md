@@ -13,25 +13,26 @@
 `slipperiness` | [Float]() | *0.6f* | 
 `resistance` | [Integer]() | *3* | How immune to explosions the block is (3 is stone, 1500 is obsidian).
 `luminance` | [Integer]() | *0* | The light level that the block gives off
+`loot_table` | [Identifier]() | *optional* | The loot table that the block drops when mined. Mines nothing if left behind.
+`base_block` | [Identifier]() | *mandetory* | The block that the stairs are based on (determines properties of the block).
 `action` | [Entity Action]() | *optional* | Runs the action on the player when they right click the block
 
 ### Example Code
 
 ```json
 {
-	"type": "ccpacks:block",
-	"identifier": "example_pack:emerald_block",
-	"sound": "glass",
-	"material": "stone",
-	"effective_tool": "pickaxe",
-	"mining_level": 2,
-	"hardness": 3,
-	"slipperiness": 0.6,
-	"resistance": 3,
-	"luminance": 15,
-	"action": {
-		"type": "ccpacks:crafting_gui"
-	}
+    "type": "ccpacks:stairs",
+    "identifier": "example_pack:ice_stairs",
+    "sound": "glass",
+    "material": "stone",
+    "effective_tool": "pickaxe",
+    "mining_level": 2,
+    "hardness": 3,
+    "slipperiness": 0.989,
+    "resistance": 3,
+    "luminance": 15,
+	"loot_table": "example_pack:data",
+	"base_block": "minecraft:ice"
 }
 ```
 

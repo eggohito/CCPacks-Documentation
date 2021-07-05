@@ -1,4 +1,6 @@
-# Custom Block
+# Custom Slabs
+
+There are two types of slabs, vertical, and horizontal. these are specified by using `ccpacks:horizontal_slab` and `ccpacks:vertical_slab`
 
 ### Fields
 
@@ -19,7 +21,7 @@
 
 ```json
 {
-	"type": "ccpacks:block",
+	"type": "ccpacks:horizontal_slab",
 	"identifier": "example_pack:emerald_block",
 	"sound": "glass",
 	"material": "stone",
@@ -29,6 +31,7 @@
 	"slipperiness": 0.6,
 	"resistance": 3,
 	"luminance": 15,
+    "loot_table": "example_pack:data",
 	"action": {
 		"type": "ccpacks:crafting_gui"
 	}

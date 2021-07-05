@@ -1,9 +1,9 @@
-### Remove Durability
+### Change Name
 
-Removes the specified amount of durability from the item.
+Changes the name of the item.
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`amount` | [Integer]() | *mandetory* | The amount of durability to remove.
+`name` | [String]() | *mandetory* | The name that the item will be changed to.
