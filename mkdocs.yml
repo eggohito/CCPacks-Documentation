@@ -4,7 +4,8 @@ nav:
     - Home: index.md
     - Pack Structure: pack_structure.md
     - Custom Content:
-      - Blocks: blocks.md
+      - Blocks: 
+        - General: block/blocks.md
       - Items:
         - Armor: item/armor.md
         - Durable Item: item/durable.md
@@ -14,12 +15,12 @@ nav:
         - Weapons: item/weapons.md
     - Actions:
         - Item Actions:
-            - Remove Durability: remove_durability.md
+            - Remove Durability: item_actions/remove_durability.md
         - Entity Actions:
-            - Crafting GUI: crafting_gui.md
+            - Crafting GUI: entity_actions/crafting_gui.md
     - Conditions:
         - Item Conditions:
-            - Compare Durability: compare_durability.md
+            - Compare Durability: item_conditions/compare_durability.md
        
 theme:
   name: material
