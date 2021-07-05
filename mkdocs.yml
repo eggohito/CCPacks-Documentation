@@ -24,7 +24,7 @@ nav:
     - Actions:
         - Item Actions:
             - Remove Durability: item_actions/remove_durability.md
-            - Change Name: item_actions/remove_durability.md
+            - Change Name: item_actions/change_name.md
         - Entity Actions:
             - Crafting GUI: entity_actions/crafting_gui.md
     - Conditions:
