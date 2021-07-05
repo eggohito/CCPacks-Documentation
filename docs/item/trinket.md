@@ -4,10 +4,10 @@ Custom Trinkets requires the [Trinkets](https://www.curseforge.com/minecraft/mc-
 
 ### Fields
 
-   Field   | Type | Default | Description
------------|------|---------|-------------
-`identifier` | [Identifier]() | *mandetory* | The identifier is what the item appears as in the /give command.
-`powers` | [Power [array]]() | *optional* | The powers you are given when the item is in its trinket slot.
+    Field    | Type | Default | Description
+-------------|------|---------|-------------
+`identifier`   | [Identifier]() | *mandetory* | The identifier is what the item appears as in the /give command.
+`powers`   | [Power [array]]() | *optional* | The powers you are given when the item is in its trinket slot.
 
 ### Example Code
 
