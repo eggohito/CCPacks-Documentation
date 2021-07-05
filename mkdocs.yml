@@ -32,21 +32,21 @@ nav:
             - Compare Durability: item_conditions/compare_durability.md
 
 theme:
-    name: material
-    palette:
-        - media: "(prefers-color-scheme: dark)"
-            scheme: slate
-            primary: deep purple
-            toggle:
-                icon: material/toggle-switch-off-outline
-                name: Switch to light mode
-        - media: "(prefers-color-scheme: light)"
-            scheme: default
-            primary: deep purple
-            toggle:
-                icon: material/toggle-switch
-                name: Switch to dark mode
-                
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
 separator: '_'
 plugins:
   - search
