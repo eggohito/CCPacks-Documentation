@@ -4,39 +4,48 @@ nav:
     - Home: index.md
     - Pack Structure: pack_structure.md
     - Custom Content:
-      - Blocks: 
-        - General: block/blocks.md
-      - Items:
-        - Armor: item/armor.md
-        - Durable Item: item/durable.md
-        - Food: item/food.md
-        - General: item/general.md
-        - Tools: item/tools.md
-        - Weapons: item/weapons.md
+        - Blocks: 
+            - General: block/general.md
+            - Falling Blocks: block/falling_block.md
+            - Stairs: block/stairs.md
+            - Slabs: block/slabs.md
+        - Items:
+            - Armor: item/armor.md
+            - Durable Item: item/durable.md
+            - Food: item/food.md
+            - General: item/general.md
+            - Trinket: item/trinket.md
+            - Tools: item/tools.md
+            - Weapons: item/weapons.md
+        - Status Effects: effect.md
+        - Enchantments: enchantment.md
+        - Portal: portal.md
+        - Keybind: keybind.md
     - Actions:
         - Item Actions:
             - Remove Durability: item_actions/remove_durability.md
+            - Change Name: item_actions/remove_durability.md
         - Entity Actions:
             - Crafting GUI: entity_actions/crafting_gui.md
     - Conditions:
         - Item Conditions:
             - Compare Durability: item_conditions/compare_durability.md
-       
+
 theme:
-  name: material
-  palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: deep purple
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: deep purple
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
+    name: material
+    palette:
+        - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: deep purple
+        toggle:
+            icon: material/toggle-switch-off-outline
+            name: Switch to light mode
+        - media: "(prefers-color-scheme: light)"
+        scheme: default
+        primary: deep purple
+        toggle:
+            icon: material/toggle-switch
+            name: Switch to dark mode
 
 separator: '_'
 plugins:
