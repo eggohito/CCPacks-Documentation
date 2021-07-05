@@ -18,7 +18,7 @@
 	"type": "ccpacks:portal",
 	"block": "minecraft:end_stone",
 	"ignition_item": "minecraft:heart_of_the_sea",
-	"dimention": "minecraft:the_end",
+	"dimension": "minecraft:the_end",
 	"red": 37,
 	"green": 25,
 	"blue": 51
