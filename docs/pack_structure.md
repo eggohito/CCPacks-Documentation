@@ -1,4 +1,5 @@
 ## General data structure
+
 ```mermaid
 graph TD
 A[Packname]
@@ -10,6 +11,7 @@ B --> G[data]
 ```
 
 ## Resourcepack structure
+
 ```mermaid
 graph TD
 E[assets]
