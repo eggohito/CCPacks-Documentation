@@ -59,14 +59,14 @@ nav:
                 - Vanilla Damage Sources: origins-docs/docs/misc/vanilla_damage_sources.md
     - Actions:
         - Item Actions:
-            - Remove Durability: origins-docs/docs/item_actions/remove_durability.md
-            - Change Name: origins-docs/docs/item_actions/change_name.md
+            - Remove Durability: item_actions/remove_durability.md
+            - Change Name: item_actions/change_name.md
         - Entity Actions:
-            - Crafting GUI: origins-docs/docs/entity_actions/crafting_gui.md
+            - Crafting GUI: entity_actions/crafting_gui.md
     - Conditions:
         - Item Conditions:
-            - Compare Durability: origins-docs/docs/item_conditions/compare_durability.md
-            - Compare Amount: origins-docs/docs/item_conditions/compare_amount.md
+            - Compare Durability: item_conditions/compare_durability.md
+            - Compare Amount: item_conditions/compare_amount.md
 
 theme:
   name: material
