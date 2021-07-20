@@ -15,7 +15,7 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [Object](object)
 * [String](string)
 
-## Apolis-specific
+## Apoli-specific
 
 * [Attribute Modifier](attribute_modifier)
 * [Attributed Attribute Modifier](attributed_attribute_modifier)
