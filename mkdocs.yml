@@ -22,41 +22,41 @@ nav:
         - Portal: portal.md
         - Keybind: keybind.md
         - Apoli:
-            - Home: origins-docs @ 736be17/docs/index.md
+            - Home: apoli/index.md
             - Datapack Guides:
-                - Defining an Origin: origins-docs/docs/guides/data/define_origin.md
-                - Defining a Power: origins-docs/docs/guides/data/define_power.md
-                - Origin conditions in layers: origins-docs/docs/guides/data/origin_conditions_in_layers.md
+                - Defining an Origin: apoli/guides/data/define_origin.md
+                - Defining a Power: apoli/guides/data/define_power.md
+                - Origin conditions in layers: apoli/guides/data/origin_conditions_in_layers.md
             - Add-on Guides:
-                - Workspace Setup: origins-docs/docs/guides/addon/workspace_setup.md
-                - Dependencies Explained: origins-docs/docs/guides/addon/dependencies.md
+                - Workspace Setup: apoli/guides/addon/workspace_setup.md
+                - Dependencies Explained: apoli/guides/addon/dependencies.md
             - Types:
-                - Power Types: origins-docs/docs/power_types.md
-                - Data Types: origins-docs/docs/data_types.md
-                - Power JSON: origins-docs/docs/power_json.md
-                - Origin JSON: origins-docs/docs/origin_json.md
-                - Layer JSON: origins-docs/docs/layer_json.md
+                - Power Types: apoli/power_types.md
+                - Data Types: apoli/data_types.md
+                - Power JSON: apoli/power_json.md
+                - Origin JSON: apoli/origin_json.md
+                - Layer JSON: apoli/layer_json.md
             - Conditions:
-                - Biome Conditions: origins-docs/docs/biome_conditions.md
-                - Block Conditions: origins-docs/docs/block_conditions.md
-                - Damage Conditions: origins-docs/docs/damage_conditions.md
-                - Entity Conditions: origins-docs/docs/entity_conditions.md
-                - Fluid Conditions: origins-docs/docs/fluid_conditions.md
-                - Item Conditions: origins-docs/docs/item_conditions.md
-                - Meta Conditions: origins-docs/docs/meta_conditions.md
+                - Biome Conditions: apoli/biome_conditions.md
+                - Block Conditions: apoli/block_conditions.md
+                - Damage Conditions: apoli/damage_conditions.md
+                - Entity Conditions: apoli/entity_conditions.md
+                - Fluid Conditions: apoli/fluid_conditions.md
+                - Item Conditions: apoli/item_conditions.md
+                - Meta Conditions: apoli/meta_conditions.md
             - Actions:
-                - Block Actions: origins-docs/docs/block_actions.md
-                - Entity Actions: origins-docs/docs/entity_actions.md
-                - Item Actions: origins-docs/docs/item_actions.md
-                - Meta Actions: origins-docs/docs/meta_actions.md
+                - Block Actions: apoli/block_actions.md
+                - Entity Actions: apoli/entity_actions.md
+                - Item Actions: apoli/item_actions.md
+                - Meta Actions: apoli/meta_actions.md
             - Miscellaneous:
-                - Commands: origins-docs/docs/misc/commands.md
-                - Keybindings: origins-docs/docs/misc/keybindings.md
-                - Origins: origins-docs/docs/misc/origins.md
-                - Positioned Item Stack Slots: origins-docs/docs/misc/positioned_item_stack_slots.md
-                - Powers: origins-docs/docs/misc/origins_powers.md
-                - Resource Bars: origins-docs/docs/misc/resource_bars.md
-                - Vanilla Damage Sources: origins-docs/docs/misc/vanilla_damage_sources.md
+                - Commands: apoli/misc/commands.md
+                - Keybindings: apoli/misc/keybindings.md
+                - Origins: apoli/misc/origins.md
+                - Positioned Item Stack Slots: apoli/misc/positioned_item_stack_slots.md
+                - Powers: apoli/misc/origins_powers.md
+                - Resource Bars: apoli/misc/resource_bars.md
+                - Vanilla Damage Sources: apoli/misc/vanilla_damage_sources.md
     - Actions:
         - Item Actions:
             - Remove Durability: item_actions/remove_durability.md
