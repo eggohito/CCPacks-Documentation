@@ -22,7 +22,7 @@ nav:
         - Portal: portal.md
         - Keybind: keybind.md
         - Apoli:
-            - Home: origins-docs/docs/index.md
+            - Home: origins-docs @ 736be17/docs/index.md
             - Datapack Guides:
                 - Defining an Origin: origins-docs/docs/guides/data/define_origin.md
                 - Defining a Power: origins-docs/docs/guides/data/define_power.md
