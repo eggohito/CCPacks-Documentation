@@ -3,34 +3,35 @@ site_name: CCPacks Documentation
 nav:
     - Home: index.md
     - Pack Structure: pack_structure.md
-    - Custom Content:
-        - Blocks: 
-            - General: block/general.md
-            - Falling Blocks: block/falling_block.md
-            - Stairs: block/stairs.md
-            - Slabs: block/slabs.md
-        - Items:
-            - Armor: item/armor.md
-            - Durable Item: item/durable.md
-            - Food: item/food.md
-            - General: item/general.md
-            - Trinket: item/trinket.md
-            - Tools: item/tools.md
-            - Weapons: item/weapons.md
-        - Status Effects: effect.md
-        - Enchantments: enchantment.md
-        - Portal: portal.md
-        - Keybind: keybind.md
-    - Actions:
-        - Item Actions:
-            - Remove Durability: item_actions/remove_durability.md
-            - Change Name: item_actions/change_name.md
-        - Entity Actions:
-            - Crafting GUI: entity_actions/crafting_gui.md
-    - Conditions:
-        - Item Conditions:
-            - Compare Durability: item_conditions/compare_durability.md
-            - Compare Amount: item_conditions/compare_amount.md
+    - CCPacks:
+        - Custom Content:
+            - Blocks: 
+                - General: block/general.md
+                - Falling Blocks: block/falling_block.md
+                - Stairs: block/stairs.md
+                - Slabs: block/slabs.md
+            - Items:
+                - Armor: item/armor.md
+                - Durable Item: item/durable.md
+                - Food: item/food.md
+                - General: item/general.md
+                - Trinket: item/trinket.md
+                - Tools: item/tools.md
+                - Weapons: item/weapons.md
+            - Status Effects: effect.md
+            - Enchantments: enchantment.md
+            - Portal: portal.md
+            - Keybind: keybind.md
+        - Actions:
+            - Item Actions:
+                - Remove Durability: item_actions/remove_durability.md
+                - Change Name: item_actions/change_name.md
+            - Entity Actions:
+                - Crafting GUI: entity_actions/crafting_gui.md
+        - Conditions:
+            - Item Conditions:
+                - Compare Durability: item_conditions/compare_durability.md
+                - Compare Amount: item_conditions/compare_amount.md
     - Apoli:
         - Types:
             - Power Types: apoli/power_types.md
@@ -51,7 +52,7 @@ nav:
             - Meta Actions: apoli/meta_actions.md
         - Miscellaneous:
             - Vanilla Damage Sources: apoli/misc/vanilla_damage_sources.md
-            
+
 theme:
   name: material
   palette:
