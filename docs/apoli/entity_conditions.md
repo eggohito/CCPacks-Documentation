@@ -40,7 +40,7 @@ Entity Conditions operate on a `LivingEntity`, which also allows access to the w
 * [Moving](moving)
 * [On Block](on_block)
 * [On Fire](on_fire)
-* [Origin](origin)
+* [Apoli](apoli)
 * [Power Active](power_active)
 * [Power](power)
 * [Predicate](predicate)

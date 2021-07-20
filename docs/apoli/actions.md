@@ -4,7 +4,7 @@ date: 2021-04-06
 ---
 # Actions
 
-Actions are, along-side [Conditions](conditions.md), Origins' way of specifying complex behavior from withing data packs. They were introduced in version 0.4.1.
+Actions are, along-side [Conditions](conditions.md), Apolis' way of specifying complex behavior from withing data packs. They were introduced in version 0.4.1.
 
 They are grouped by the type of object they act on, such as entities, blocks or items:
 
