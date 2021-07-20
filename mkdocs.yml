@@ -22,51 +22,51 @@ nav:
         - Portal: portal.md
         - Keybind: keybind.md
         - Apoli:
-            - Home: index.md
+            - Home: origins-docs/docs/index.md
             - Datapack Guides:
-                - Defining an Origin: guides/data/define_origin.md
-                - Defining a Power: guides/data/define_power.md
-                - Origin conditions in layers: guides/data/origin_conditions_in_layers.md
+                - Defining an Origin: origins-docs/docs/guides/data/define_origin.md
+                - Defining a Power: origins-docs/docs/guides/data/define_power.md
+                - Origin conditions in layers: origins-docs/docs/guides/data/origin_conditions_in_layers.md
             - Add-on Guides:
-                - Workspace Setup: guides/addon/workspace_setup.md
-                - Dependencies Explained: guides/addon/dependencies.md
+                - Workspace Setup: origins-docs/docs/guides/addon/workspace_setup.md
+                - Dependencies Explained: origins-docs/docs/guides/addon/dependencies.md
             - Types:
-                - Power Types: power_types.md
-                - Data Types: data_types.md
-                - Power JSON: power_json.md
-                - Origin JSON: origin_json.md
-                - Layer JSON: layer_json.md
+                - Power Types: origins-docs/docs/power_types.md
+                - Data Types: origins-docs/docs/data_types.md
+                - Power JSON: origins-docs/docs/power_json.md
+                - Origin JSON: origins-docs/docs/origin_json.md
+                - Layer JSON: origins-docs/docs/layer_json.md
             - Conditions:
-                - Biome Conditions: biome_conditions.md
-                - Block Conditions: block_conditions.md
-                - Damage Conditions: damage_conditions.md
-                - Entity Conditions: entity_conditions.md
-                - Fluid Conditions: fluid_conditions.md
-                - Item Conditions: item_conditions.md
-                - Meta Conditions: meta_conditions.md
+                - Biome Conditions: origins-docs/docs/biome_conditions.md
+                - Block Conditions: origins-docs/docs/block_conditions.md
+                - Damage Conditions: origins-docs/docs/damage_conditions.md
+                - Entity Conditions: origins-docs/docs/entity_conditions.md
+                - Fluid Conditions: origins-docs/docs/fluid_conditions.md
+                - Item Conditions: origins-docs/docs/item_conditions.md
+                - Meta Conditions: origins-docs/docs/meta_conditions.md
             - Actions:
-                - Block Actions: block_actions.md
-                - Entity Actions: entity_actions.md
-                - Item Actions: item_actions.md
-                - Meta Actions: meta_actions.md
+                - Block Actions: origins-docs/docs/block_actions.md
+                - Entity Actions: origins-docs/docs/entity_actions.md
+                - Item Actions: origins-docs/docs/item_actions.md
+                - Meta Actions: origins-docs/docs/meta_actions.md
             - Miscellaneous:
-                - Commands: misc/commands.md
-                - Keybindings: misc/keybindings.md
-                - Origins: misc/origins.md
-                - Positioned Item Stack Slots: misc/positioned_item_stack_slots.md
-                - Powers: misc/origins_powers.md
-                - Resource Bars: misc/resource_bars.md
-                - Vanilla Damage Sources: misc/vanilla_damage_sources.md
+                - Commands: origins-docs/docs/misc/commands.md
+                - Keybindings: origins-docs/docs/misc/keybindings.md
+                - Origins: origins-docs/docs/misc/origins.md
+                - Positioned Item Stack Slots: origins-docs/docs/misc/positioned_item_stack_slots.md
+                - Powers: origins-docs/docs/misc/origins_powers.md
+                - Resource Bars: origins-docs/docs/misc/resource_bars.md
+                - Vanilla Damage Sources: origins-docs/docs/misc/vanilla_damage_sources.md
     - Actions:
         - Item Actions:
-            - Remove Durability: item_actions/remove_durability.md
-            - Change Name: item_actions/change_name.md
+            - Remove Durability: origins-docs/docs/item_actions/remove_durability.md
+            - Change Name: origins-docs/docs/item_actions/change_name.md
         - Entity Actions:
-            - Crafting GUI: entity_actions/crafting_gui.md
+            - Crafting GUI: origins-docs/docs/entity_actions/crafting_gui.md
     - Conditions:
         - Item Conditions:
-            - Compare Durability: item_conditions/compare_durability.md
-            - Compare Amount: item_conditions/compare_amount.md
+            - Compare Durability: origins-docs/docs/item_conditions/compare_durability.md
+            - Compare Amount: origins-docs/docs/item_conditions/compare_amount.md
 
 theme:
   name: material
