@@ -1,0 +1,3 @@
+[submodule "docs/origins-docs"]
+	path = docs/origins-docs
+	url = https://github.com/apace100/origins-docs
