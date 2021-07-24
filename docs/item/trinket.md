@@ -7,16 +7,15 @@ Custom Trinkets requires the [Trinkets](https://www.curseforge.com/minecraft/mc-
    Field   | Type | Default | Description
 -----------|------|---------|-------------
 `identifier` | [Identifier]() | *mandetory* | The identifier is what the item appears as in the /give command.
-`powers` | [Power [array]]() | *optional* | The powers you are given when the item is in its trinket slot.
+`durability` | [Integer]() | *mandetory* | How many uses the item has.
 
 ### Example Code
 
 ```json
 {
-	"type": "ccpacks:trinket",
+	"type": "ccpacks:item",
+    "subtype": "trinket",
 	"identifier": "example_pack:elytra_trinket",
-	"powers": [
-		"example_pack:elytra_flight"
-	]
+	"durability": 100
 }
 ```

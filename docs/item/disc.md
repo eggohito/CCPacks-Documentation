@@ -7,16 +7,17 @@
    Field   | Type | Default | Description
 -----------|------|---------|-------------
 `identifier` | [Identifier]() | *mandetory* | The identifier is what the item appears as in the /give command.
-`powers` | [Power [array]]() | *optional* | The powers you are given when the item is in its trinket slot.
+`sound` | [Identifier]() | *mandetory* | the sound event that the disc uses.
+`comparator_output` | [Int]() | *optional* | The signal strength a comparator outputs from this disc
 
 ### Example Code
 
 ```json
 {
-    "type": "ccpacks:item",
-    "subtype": "music_disc",
-    "identifier": "example_pack:music_disc_tall",
-    "comparator_output": 15,
-    "sound": "example_pack:music_disc_tall"
+  "type": "ccpacks:item",
+  "subtype": "music_disc",
+  "identifier": "example_pack:funky_disc",
+  "comparator_output": 8,
+  "sound": "example_pack:funky_sound"
 }
 ```

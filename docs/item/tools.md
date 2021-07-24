@@ -12,26 +12,22 @@
 `mining_level` | [Integer]() | *optional* | doesn't actually do anything on swords.
 `enchantability` | [Integer]() | *0* | How likely you are to get good enchantments.
 `lore` | [String [array]]() | *optional* | Lines of text below an item.
-`powers` | [Power [array]]() | *optional* | The powers you are given when holding the item.
 
 ### Example Code
 
 ```json
 {
-	"type": "ccpacks:axe",
-	"identifier": "example_pack:example_axe",
-	"durability": 47,
-	"mining_speed_multiplier": 1,
-	"attack_damage": 9,
-	"attack_speed": 2.7,
-	"mining_level": 3,
-	"enchantability": 7,
-	"lore": [
-		"first line of lore",
-		"second line of lore"
-	],
-	"powers": [
-		"origins:fall_immunity"
-	]
+    "type": "ccpacks:item",
+    "subtype": "axe",
+    "identifier": "example_pack:amethyst_axe",
+    "durability": 450,
+    "mining_speed_multiplier": 1,
+    "attack_damage": 11,
+    "attack_speed": 1.1,
+    "mining_level": 4,
+    "enchantability": 12,
+    "lore": [
+        "a fragile tool and weapon"
+    ]
 }
 ```

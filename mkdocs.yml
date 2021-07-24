@@ -18,10 +18,17 @@ nav:
                 - Trinket: item/trinket.md
                 - Tools: item/tools.md
                 - Weapons: item/weapons.md
+            - Entities (WIP):
+                - Chicken: chicken.md
+                - Cow: cow.md
+                - Pig: pig.md
+                - Sheep: sheep.md
             - Status Effects: effect.md
             - Enchantments: enchantment.md
             - Portal: portal.md
             - Keybind: keybind.md
+            - Particle: particle.md
+            - Sound Event: sound_event.md
         - Actions:
             - Item Actions:
                 - Remove Durability: item_actions/remove_durability.md

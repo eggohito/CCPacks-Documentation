@@ -17,16 +17,18 @@
 
 ```json
 {
-	"type": "ccpacks:food",
-	"identifier": "example_pack:emerald_food",
-	"max_count": 47,
-	"hunger": 8,
-	"saturation": 12,
-	"meat": false,
-	"always_edible": true,
-	"snack": true,
-	"lore": [
-		"Line of lore text"
-	]
+    "type": "ccpacks:item",
+    "subtype": "food",
+    "identifier": "example_pack:glitter_food",
+    "max_count": 64,
+    "hunger": 8,
+    "saturation": 12,
+    "meat": false,
+    "always_edible": true,
+    "snack": true,
+    "lore": [
+        "Some say you should never eat this...",
+		"They are WRONG."
+    ]
 }
 ```

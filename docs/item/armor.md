@@ -11,26 +11,21 @@
 `knockback_resistance` | [Integer]() | *0* | How fast you can swing the weapon.
 `enchantability` | [Integer]() | *0* | How likely you are to get good enchantments.
 `lore` | [String [array]]() | *optional* | Lines of text below an item.
-`powers` | [Power [array]]() | *optional* | The powers you are given when holding the item.
+`repair_item` | [Item]() | *optional* | The item used to repair the armour.
 
 ### Armor json structure
 
 ```json
 {
-	"type": "ccpacks:chestplate",
-	"identifier": "example_pack:example_chestplate",
-	"name": "example",
-	"durability": 47,
-	"protection": 4,
-	"enchantability": 2,
+	"type": "ccpacks:item",
+    "subtype": "chestplate",
+	"identifier": "example_pack:netherite_elytra",
+	"name": "emerald",
+	"durability": 592,
+	"protection": 8,
+	"enchantability": 15,
 	"toughness": 3,
 	"knockback_resistance": 1,
-	"powers": [
-		"example_pack:elytra_power"
-	],
-	"lore": [
-		"Hmmm, whats this?",
-		"Looks like a powerful item"
-	]
+	"repair_item": "minecraft:emerald"
 }
 ```
