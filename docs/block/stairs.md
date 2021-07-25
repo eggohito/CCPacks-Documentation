@@ -4,7 +4,7 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`identifier` | [Identifier]() | *mandetory* | The identifier is what the item appears as in the /give command.
+`identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
 `sound` | [Sound]() | *1* | The sound the block makes when broken.
 `material` | [Material]() | *optional* | The sounds related to the player moving and walking on the block.
 `effective_tool` | [Effective Tool]() | *optional* | The tool you need to use to mine the block.
@@ -14,7 +14,7 @@
 `resistance` | [Integer]() | *3* | How immune to explosions the block is (3 is stone, 1500 is obsidian).
 `luminance` | [Integer]() | *0* | The light level that the block gives off
 `loot_table` | [Identifier]() | *optional* | The loot table that the block drops when mined. Mines nothing if left behind.
-`base_block` | [Identifier]() | *mandetory* | The block that the stairs are based on (determines properties of the block).
+`base_block` | [Identifier]() | *mandatory* | The block that the stairs are based on (determines properties of the block).
 `action` | [Entity Action]() | *optional* | Runs the action on the player when they right click the block
 
 ### Example Code

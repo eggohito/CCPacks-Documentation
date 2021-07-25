@@ -6,7 +6,7 @@ Falling blocks are identical to generic blocks, but they are affected by gravity
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`identifier` | [Identifier]() | *mandetory* | The identifier is what the item appears as in the /give command.
+`identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
 `sound` | [Sound]() | *1* | The sound the block makes when broken.
 `material` | [Material]() | *optional* | The sounds related to the player moving and walking on the block.
 `effective_tool` | [Effective Tool]() | *optional* | The tool you need to use to mine the block.
