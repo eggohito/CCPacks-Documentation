@@ -15,7 +15,7 @@ Falling blocks are identical to generic blocks, but they are affected by gravity
 `slipperiness` | [Float]() | *0.6f* | 
 `resistance` | [Integer]() | *3* | How immune to explosions the block is (3 is stone, 1500 is obsidian).
 `luminance` | [Integer]() | *0* | The light level that the block gives off
-`action` | [Entity Action]() | *optional* | Runs the action on the player when they right click the block
+`loot_table` | [Loot Table]() | null | *mandatory* | The loot table for the block(s) that is dropped when this block is broken
 
 ### Example Code
 

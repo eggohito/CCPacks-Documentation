@@ -15,7 +15,7 @@
 `luminance` | [Integer]() | *0* | The light level that the block gives off
 `loot_table` | [Identifier]() | *optional* | The loot table that the block drops when mined. Mines nothing if left behind.
 `base_block` | [Identifier]() | *mandatory* | The block that the stairs are based on (determines properties of the block).
-`action` | [Entity Action]() | *optional* | Runs the action on the player when they right click the block
+`loot_table` | [Loot Table]() | null | *mandatory* | The loot table for the block(s) that is dropped when this block is broken
 
 ### Example Code
 

@@ -13,7 +13,7 @@
 `slipperiness` | [Float]() | *0.6f* | 
 `resistance` | [Integer]() | *3* | How immune to explosions the block is (3 is stone, 1500 is obsidian).
 `luminance` | [Integer]() | *0* | The light level that the block gives off
-`action` | [Entity Action]() | *optional* | Runs the action on the player when they right click the block
+`loot_table` | [Loot Table]() | null | *mandatory* | The loot table for the block(s) that is dropped when this block is broken
 
 ### Example Code
 
@@ -29,11 +29,7 @@
     "slipperiness": 0.6,
     "resistance": 3,
     "luminance": 15,
-	"loot_table": "example_pack:data",
-    "action": {
-        "type": "apoli:heal",
-		"amount": 6
-    }
+	"loot_table": "example_pack:data"
 }
 ```
 

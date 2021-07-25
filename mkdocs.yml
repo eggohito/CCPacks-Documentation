@@ -24,6 +24,7 @@ nav:
                 - Cow: cow.md
                 - Pig: pig.md
                 - Sheep: sheep.md
+            - Universal Powers: universal_powers.md
             - Status Effects: effect.md
             - Enchantments: enchantment.md
             - Portal: portal.md
