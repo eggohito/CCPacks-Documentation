@@ -18,6 +18,7 @@ nav:
                 - Trinket: item/trinket.md
                 - Tools: item/tools.md
                 - Weapons: item/weapons.md
+                - Discs: item/disc.md
             - Entities (WIP):
                 - Chicken: chicken.md
                 - Cow: cow.md
