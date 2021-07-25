@@ -6,8 +6,8 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`identifier` | [Identifier]() | *mandetory* | The identifier is what the item appears as in the /give command.
-`texture` | [String]() | *mandetory* | The location for the texture in the assets folder.
+`identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
+`texture` | [String]() | *mandatory* | The location for the texture in the assets folder.
 
 ### Example Code
 

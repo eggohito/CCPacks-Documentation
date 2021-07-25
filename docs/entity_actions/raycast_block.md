@@ -6,7 +6,7 @@ This action gets the block you are looking at, with a limit to the distance (Hig
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`distance` | [Int]() | *mandetory* | The distance that the ray travels
+`distance` | [Int]() | *mandatory* | The distance that the ray travels
 `entity_action` | [Entity Action]() | *optional* | The entity action that is run.
 `block_action` | [Block Action]() | *optional* | The block action that is run.
 `block_condition` | [Block Condition]() | *optional* | The condition that checks the block that the ray hits.

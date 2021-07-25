@@ -4,7 +4,7 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`identifier` | [Identifier]() | *mandetory* | The identifier is what the sound appears as in the /playsound command.
+`identifier` | [Identifier]() | *mandatory* | The identifier is what the sound appears as in the /playsound command.
 
 ### Example Code
 

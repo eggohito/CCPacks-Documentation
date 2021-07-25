@@ -4,7 +4,7 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`identifier` | [Identifier]() | *mandetory* | The identifier is what the item appears as in the /give command.
+`identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
 `durability` | [Integer]() | *10* | How many uses the item has.
 `mining_speed_multiplier` | [Float]() | *0* | (unknown, if you know, tell me on the discord)
 `attack_damage` | [Integer]() | *0* | the amount of damage that a weapon does.

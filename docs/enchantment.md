@@ -4,7 +4,7 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`identifier` | [Identifier]() | *mandetory* | The identifier is what the enchant appears as in the /enchant command.
+`identifier` | [Identifier]() | *mandatory* | The identifier is what the enchant appears as in the /enchant command.
 
 ### Example Code
 

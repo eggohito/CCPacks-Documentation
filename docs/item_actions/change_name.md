@@ -6,4 +6,4 @@ Changes the name of the item.
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`name` | [String]() | *mandetory* | The name that the item will be changed to.
+`name` | [String]() | *mandatory* | The name that the item will be changed to.

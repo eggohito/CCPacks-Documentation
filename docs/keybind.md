@@ -4,8 +4,8 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`name` | [String]() | *mandetory* | The name of the keybind, it is used in powers.
-`category` | [String]() | *mandetory* | The name of the keybind, keybinds with the same category will be grouped together.
+`name` | [String]() | *mandatory* | The name of the keybind, it is used in powers.
+`category` | [String]() | *mandatory* | The name of the keybind, keybinds with the same category will be grouped together.
 
 ### Example Code
 
