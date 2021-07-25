@@ -15,7 +15,6 @@ nav:
                 - Durable Item: item/durable.md
                 - Food: item/food.md
                 - General: item/general.md
-                - Trinket: item/trinket.md
                 - Tools: item/tools.md
                 - Weapons: item/weapons.md
                 - Discs: item/disc.md
@@ -36,6 +35,7 @@ nav:
                 - Change Name: item_actions/change_name.md
             - Entity Actions:
                 - Crafting GUI: entity_actions/crafting_gui.md
+                - Block Raycast: entity_actions/raycast_block.md
         - Conditions:
             - Item Conditions:
                 - Compare Durability: item_conditions/compare_durability.md
