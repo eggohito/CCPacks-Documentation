@@ -11,6 +11,9 @@ nav:
                 - Falling Blocks: block/falling_block.md
                 - Stairs: block/stairs.md
                 - Slabs: block/slabs.md
+                - Block Properties:
+                    - Sounds: block/sounds.md
+                    - Materials: block/materials.md
             - Items:
                 - Armor: item/armor.md
                 - Durable Item: item/durable.md
