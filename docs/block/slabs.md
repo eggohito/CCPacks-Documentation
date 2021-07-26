@@ -6,6 +6,7 @@ There are two types of slabs, vertical, and horizontal. these are specified by u
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
+`subtype` | [String]() | *mandatory* | Defines the type of block
 `identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
 `sound` | [Sound]() | *1* | The sound the block makes when broken.
 `material` | [Material]() | *optional* | The sounds related to the player moving and walking on the block.
@@ -22,6 +23,7 @@ There are two types of slabs, vertical, and horizontal. these are specified by u
 ```json
 {
 	"type": "ccpacks:horizontal_slab",
+	"subtype": "horizontal_slab",
 	"identifier": "example_pack:emerald_block",
 	"sound": "glass",
 	"material": "stone",

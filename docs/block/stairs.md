@@ -4,6 +4,7 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
+`subtype` | [String]() | *mandatory* | Defines the type of block
 `identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
 `sound` | [Sound]() | *1* | The sound the block makes when broken.
 `material` | [Material]() | *optional* | The sounds related to the player moving and walking on the block.
@@ -22,6 +23,7 @@
 ```json
 {
     "type": "ccpacks:stairs",
+	"subtype": "stairs",
     "identifier": "example_pack:ice_stairs",
     "sound": "glass",
     "material": "stone",
