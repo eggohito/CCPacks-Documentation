@@ -22,7 +22,7 @@ Falling blocks are identical to generic blocks, but they are affected by gravity
 
 ```json
 {
-    "type": "ccpacks:falling_block",
+    "type": "ccpacks:block",
 	"subtype": "falling",
     "identifier": "example_pack:health_block",
     "sound": "glass",

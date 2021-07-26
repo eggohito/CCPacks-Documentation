@@ -22,7 +22,7 @@
 
 ```json
 {
-    "type": "ccpacks:stairs",
+    "type": "ccpacks:block",
 	"subtype": "stairs",
     "identifier": "example_pack:ice_stairs",
     "sound": "glass",

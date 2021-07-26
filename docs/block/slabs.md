@@ -22,7 +22,7 @@ There are two types of slabs, vertical, and horizontal. these are specified by u
 
 ```json
 {
-	"type": "ccpacks:horizontal_slab",
+	"type": "ccpacks:block",
 	"subtype": "horizontal_slab",
 	"identifier": "example_pack:emerald_block",
 	"sound": "glass",
