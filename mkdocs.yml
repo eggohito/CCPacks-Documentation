@@ -11,6 +11,9 @@ nav:
                 - Falling Blocks: block/falling_block.md
                 - Stairs: block/stairs.md
                 - Slabs: block/slabs.md
+                - Fences: block/fences.md
+                - Fence Gates: block/fence_gates.md
+                - Walls: block/walls.md
                 - Block Properties:
                     - Sounds: block/sounds.md
                     - Materials: block/materials.md
