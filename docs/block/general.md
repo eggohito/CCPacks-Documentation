@@ -14,6 +14,7 @@
 `slipperiness` | [Float]() | *0.6f* | 
 `resistance` | [Integer]() | *3* | How immune to explosions the block is (3 is stone, 1500 is obsidian).
 `luminance` | [Integer]() | *0* | The light level that the block gives off
+`make_block_item` | [Boolean]() | true | If false, makes it so it does not register a block item.
 `loot_table` | [Loot Table]() | null | *mandatory* | The loot table for the block(s) that is dropped when this block is broken
 
 ### Example Code
