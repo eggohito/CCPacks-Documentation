@@ -4,6 +4,7 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
+`subtype` | [String]() | *mandatory* | Defines the type of item.
 `identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
 `name` | [String]() | *mandatory* | The name of the image files used to texture the armor.
 `durability` | [Integer]() | *10* | How many uses the item has.

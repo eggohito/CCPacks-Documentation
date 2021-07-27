@@ -4,6 +4,7 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
+`subtype` | [String]() | *mandatory* | Defines the type of item.
 `identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
 `cooldown` | [Integer]() | *60* | How long the shield takes to be able to be used again when struck with an axe.
 `durability` | [Integer]() | *100* | How many uses the item has.

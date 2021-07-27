@@ -6,6 +6,7 @@ Custom Trinkets requires the [Trinkets](https://www.curseforge.com/minecraft/mc-
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
+`subtype` | [String]() | *mandatory* | Defines the type of item.
 `identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
 `durability` | [Integer]() | *mandatory* | How many uses the item has.
 
