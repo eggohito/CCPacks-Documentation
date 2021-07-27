@@ -12,7 +12,6 @@
 `mining_level` | [Integer]() | *optional* | doesn't actually do anything on swords.
 `enchantability` | [Integer]() | *0* | How likely you are to get good enchantments.
 `lore` | [String [array]]() | *optional* | Lines of text below an item.
-`powers` | [Power [array]]() | *optional* | The powers you are given when holding the item.
 
 ### Example Code
 
@@ -29,9 +28,6 @@
 	"lore": [
 		"first line of lore",
 		"second line of lore"
-	],
-	"powers": [
-		"origins:fall_immunity"
 	]
 }
 ```
