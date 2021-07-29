@@ -33,10 +33,11 @@ nav:
             - Universal Powers: universal_powers.md
             - Status Effects: effect.md
             - Enchantments: enchantment.md
-            - Portal: portal.md
-            - Keybind: keybind.md
-            - Particle: particle.md
-            - Sound Event: sound_event.md
+            - Portals: portal.md
+            - Keybinds: keybind.md
+            - Particles: particle.md
+            - Sound Events: sound_event.md
+            - Projectiles: projectiles.md
         - Actions:
             - Item Actions:
                 - Remove Durability: item_actions/remove_durability.md
