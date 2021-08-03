@@ -4,6 +4,7 @@ nav:
     - Home: index.md
     - Pack Installation: pack_installation.md
     - Pack Structure: pack_structure.md
+    - Pack Submission: pack_submission.md
     - CCPacks:
         - Custom Content:
             - Blocks: 
