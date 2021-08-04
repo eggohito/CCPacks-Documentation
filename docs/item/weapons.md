@@ -18,7 +18,8 @@
 
 ```json
 {
-	"type": "ccpacks:sword",
+	"type": "ccpacks:item",
+	"subtype": "sword",
 	"identifier": "example_pack:example_sword",
 	"durability": 47,
 	"mining_speed_multiplier": 0,
