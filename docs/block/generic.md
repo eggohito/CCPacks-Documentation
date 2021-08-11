@@ -1,31 +1,30 @@
-# Stairs
+# Generic (Block)
 
-A stairs block is a block with a complex shape; like a generic block, but missing one or two corners, depending on the orientation of the stairs block.
+A generic block is a block with a simple \[cuboid\] shape.
 
 
-`type` ID: `"ccpacks:block"`
+`type` ID: `"ccpacks:blocks"`
 
-`subtype` ID: `"stairs"`
+`subtype` ID: `"generic"`
 
 
 ### Fields
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
+`identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the `/give` command.
 `sound` | [Sound](properties/sounds.md) | *`"bone"`* | The sound the block makes when broken.
-`material` | [Material](properties/materials.md) | *`"stone"`* | The sounds related to the player moving and walking on the block.
-`effective_tool` | [Effective Tool]() | *optional* | The tool you need to use to mine the block.
+`material` | [Material](properties/materials.md) | *`"stone"`*  | The sounds related to the player moving and walking on the block.
+`effective_tool` | [Effective Tool]() | *`"axe"`* | The tool you need to use to mine the block.
 `collidable` | [Boolean]() | *`true`* | Determines if the block has a collision box.
 `transparent` | [Boolean]() | *`false`* | Determines if the block is transparent.
 `mining_level` | [Integer]() | *`1`* | What mining level you have to be in order to break the block.
 `hardness` | [Integer]() | *`3`* | How long it takes to break (3 is stone 50 is obsidian).
-`slipperiness` | [Float]() | *`0.6`* | How slippery the block is; lower = more slippery, higher = less slippery. 
+`slipperiness` | [Float]() | *`0.6`* | How slippery the block is; lower = more slippery, higher = less slippery.
 `resistance` | [Integer]() | *`3`* | How resistant to explosions the block is (3 is stone, 1500 is obsidian).
 `luminance` | [Integer]() | *`0`* | The light level that the block gives off.
 `make_block_item` | [Boolean]() | *`true`* | If false, makes it so it does not register a block item.
 `loot_table` | [Loot Table]() | *mandatory* | The loot table for the block(s) that is dropped when this block is broken.
-`base_block` | [Identifier]() | *mandatory* | The block that the stairs are based on (determine properties of the block.)
 
 
 ### Example
@@ -33,19 +32,18 @@ A stairs block is a block with a complex shape; like a generic block, but missin
 ```json
 {
     "type": "ccpacks:block",
-	"subtype": "stairs",
-    "identifier": "example_pack:ice_stairs",
+	"subtype": "generic",
+    "identifier": "example_pack:health_block",
     "sound": "glass",
     "material": "stone",
     "effective_tool": "pickaxe",
     "mining_level": 2,
     "hardness": 3,
-    "slipperiness": 0.989,
+    "slipperiness": 0.6,
     "resistance": 3,
     "luminance": 15,
-	"loot_table": "example_pack:data",
-	"base_block": "minecraft:ice"
+	"loot_table": "example_pack:data"
 }
 ```
 
-This example creates a stairs block that sounds like glass when broken, and stone when being stepped on. It also has the same hardness and blast resistance of a stone block.
+This example creates a generic block that sounds like glass when broken, and stone when being stepped on. It also has the same hardness and blast resistance of a stone block.

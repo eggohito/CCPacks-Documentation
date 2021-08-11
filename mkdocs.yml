@@ -7,16 +7,16 @@ nav:
     - CCPacks:
         - Custom Content:
             - Blocks: 
-                - General: block/general.md
+                - Properties:
+                    - Sounds: block/properties/sounds.md
+                    - Materials: block/properties/materials.md
+                - Generic: block/generic.md
                 - Falling Blocks: block/falling_block.md
                 - Stairs: block/stairs.md
                 - Slabs: block/slabs.md
                 - Fences: block/fences.md
                 - Fence Gates: block/fence_gates.md
                 - Walls: block/walls.md
-                - Block Properties:
-                    - Sounds: block/sounds.md
-                    - Materials: block/materials.md
             - Items:
                 - Armor: item/armor.md
                 - Durable Item: item/durable.md
@@ -26,10 +26,10 @@ nav:
                 - Weapons: item/weapons.md
                 - Discs: item/disc.md
             - Entities (WIP):
-                - Chicken: chicken.md
-                - Cow: cow.md
-                - Pig: pig.md
-                - Sheep: sheep.md
+                - Chicken: entities/chicken.md
+                - Cow: entities/cow.md
+                - Pig: entities/pig.md
+                - Sheep: entities/sheep.md
             - Universal Powers: universal_powers.md
             - Status Effects: effect.md
             - Enchantments: enchantment.md
