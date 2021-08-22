@@ -2,12 +2,12 @@
 
 A slab is a block with a half-cuboid shape.
 
-There are two types of slabs: vertical and horizontal. These are specified by using `ccpacks:horizontal_slab` and `ccpacks:vertical_slab` sub-types respectively.
+There are two types of slabs: vertical and horizontal. These are specified by using `horizontal_slab` and `vertical_slab` sub-types respectively.
 
 
 `type` ID: `"ccpacks:block"`
 
-`subtype` IDs: `"ccpacks:horizontal_slab"`, `"ccpacks:vertical_slab"`
+`subtype` IDs: `"horizontal_slab"`, `"vertical_slab"`
 
 
 ### Fields
